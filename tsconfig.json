@@ -22,7 +22,10 @@
       "@controllers/*":["./src/app/controllers/*"],
       "@models/*":["./src/app/models/*"],
       "@views/*":["./src/app/views/*"],
-      "@config/*":["./src/config/*"],
+      "@config/*":["./src/config/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
